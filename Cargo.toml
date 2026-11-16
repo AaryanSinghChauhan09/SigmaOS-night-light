@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-night-light"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS night-light component - desktop"
+
+[lib]
+name = "night_light"
+path = "src/lib.rs"
