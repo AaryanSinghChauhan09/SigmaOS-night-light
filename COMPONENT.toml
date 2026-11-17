@@ -3,7 +3,7 @@ name = "SigmaOS-night-light"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "night-light component"
+description = "night light"
 upstream = []
 
 [contract]
