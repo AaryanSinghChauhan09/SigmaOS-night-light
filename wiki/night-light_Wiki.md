@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-night-light Component Wiki
+# SigmaOS-night-light Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-night-light provides night light for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-night-light provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-night-light Abstraction
-- Fail-Fast on SigmaOS-night-light Initialization Errors
-- Deterministic SigmaOS-night-light Setup
-- Clear Abstraction Over SigmaOS-night-light APIs
-- Composition over Inheritance for SigmaOS-night-light extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-night-light Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-night-light Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-night-light Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-night-light APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-night-light extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-night-light follows a SigmaOS-night-light pattern:
+SigmaOS-night-light follows a SigmaOS-night-light pattern:
 - **SigmaOS-night-light Core**: Provides SigmaOS-night-light support, SigmaOS-night-light management, and SigmaOS-night-light tracking
 - **Management**: Supports SigmaOS-night-light management, SigmaOS-night-light configuration, and SigmaOS-night-light lifecycle
 - **Tracking**: Supports SigmaOS-night-light status, SigmaOS-night-light tracking, and SigmaOS-night-light lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-night-light follows a SigmaOS-night-light pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-night-light by given configuration
--  - Register a SigmaOS-night-light by given name
--  - Get SigmaOS-night-light status and SigmaOS-night-light availability
--  - Track SigmaOS-night-light management and SigmaOS-night-light tracking
+- Manage a SigmaOS-night-light by given configuration
+- Register a SigmaOS-night-light by given name
+- Get SigmaOS-night-light status and SigmaOS-night-light availability
+- Track SigmaOS-night-light management and SigmaOS-night-light tracking
 - Error types for SigmaOS-night-light failure scenarios or unsupported SigmaOS-night-light types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-night-light init, SigmaOS-night-light management)
 3. **Assert**: Verify the expected SigmaOS-night-light results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-night-light initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-night-light failure scenarios
 - Unit tests provided for SigmaOS-night-light management and configuration
